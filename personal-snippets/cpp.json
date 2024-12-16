@@ -1,0 +1,38 @@
+{
+	"FEACT Function": {
+		"prefix": "feact",
+		"body": [
+			"consteval auto FEACT (auto value) { return value; }"
+		],
+		"description": "Force Evaluate At Compile Time"
+	},
+
+	"Competitive Starter": {
+		"prefix": "cpst",
+		"body": [
+			"#include <algorithm>",
+			"#include <iostream>",
+			"#include <cstdint>",
+			"#include <cstdio>",
+			"",
+			"#define int std::int64_t",
+			"",
+			"#define log(x) std::cerr << #x << \" = \" << (x) << '\\n';",
+			"#define cp(x) std::cerr << \"=> CHECKPOINT \" << (x) << '\\n';",
+			"",
+			"signed main () {",
+			"\tstd::ios_base::sync_with_stdio(false);",
+			"\tstd::cin.tie(nullptr);",
+			"\tstd::cout.tie(nullptr);",
+			"\t",
+			"\t// std::freopen(\"${TM_FILENAME_BASE}.INP\", \"r\", stdin);",
+			"\t// std::freopen(\"${TM_FILENAME_BASE}.OUT\", \"w\", stdout);",
+			"\t",
+			"\t$0",
+			"\t",
+			"\treturn 0;",
+			"}"
+		],
+		"description": "competitive programming starter template"
+	}
+}
