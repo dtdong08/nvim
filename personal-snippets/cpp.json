@@ -7,6 +7,29 @@
 		"description": "Force Evaluate At Compile Time"
 	},
 
+	"Online Judge Template": {
+		"prefix": "ojt",
+		"body": [
+			"#include <bits/stdc++.h>",
+			"",
+			"#define int std::int64_t",
+			"",
+			"void solve () {",
+			"\t$0",
+			"}",
+			"",
+			"signed main () {",
+			"\tstd::ios_base::sync_with_stdio(false);",
+			"\tstd::cin.tie(nullptr);",
+			"\tint t = 1;",
+			"\tstd::cin >> t;",
+			"\twhile (t--) solve();",
+			"\treturn 0;",
+			"}"
+		],
+		"description": "A template for online judge coding"
+	},
+
 	"Competitive Starter": {
 		"prefix": "cpst",
 		"body": [
