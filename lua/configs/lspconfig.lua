@@ -32,6 +32,14 @@ lspconfig.lua_ls.setup {
   },
 }
 
+lspconfig.tinymist.setup {
+	settings = {
+		formatterMode = "typstyle",
+		exportPdf = "onType",
+		semanticTokens = "disable"
+	}
+}
+
 -- SETUP FOR CLANGD by @dattran
 -- local servers = { clangd = {} }
 -- require('mason').setup()

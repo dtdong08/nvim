@@ -33,10 +33,7 @@
 	"Competitive Starter": {
 		"prefix": "cpst",
 		"body": [
-			"#include <algorithm>",
-			"#include <iostream>",
-			"#include <cstdint>",
-			"#include <cstdio>",
+			"#include <bits/stdc++.h>",
 			"",
 			"#define int std::int64_t",
 			"",
@@ -46,7 +43,6 @@
 			"signed main () {",
 			"\tstd::ios_base::sync_with_stdio(false);",
 			"\tstd::cin.tie(nullptr);",
-			"\tstd::cout.tie(nullptr);",
 			"\t",
 			"\t// std::freopen(\"${TM_FILENAME_BASE}.INP\", \"r\", stdin);",
 			"\t// std::freopen(\"${TM_FILENAME_BASE}.OUT\", \"w\", stdout);",
@@ -57,5 +53,28 @@
 			"}"
 		],
 		"description": "competitive programming starter template"
+	},
+
+	"Header @dezu": {
+		"prefix": "@",
+		"body": [
+			"// Author        : @dezu",
+			"// Created at    : ${CURRENT_HOUR}:${CURRENT_MINUTE}:${CURRENT_SECOND} ${CURRENT_DATE}/${CURRENT_MONTH}/${CURRENT_YEAR}",
+			"// Last modified : ${CURRENT_HOUR}:${CURRENT_MINUTE}:${CURRENT_SECOND} ${CURRENT_DATE}/${CURRENT_MONTH}/${CURRENT_YEAR}",
+			"",
+			"$0"
+		],
+		"description": "I am @dezu"
+	},
+
+	"#pragma magic": {
+		"prefix": "#pragma",
+		"body": [
+			"#pragma GCC optimize(\"O3,Ofast,unroll-loops\")",
+			"#pragma GCC target(\"avx2\")",
+			"",
+			"$0"
+		],
+		"description": "#pragma directives"
 	}
 }
